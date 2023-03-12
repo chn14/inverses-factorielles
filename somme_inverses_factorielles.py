@@ -1,10 +1,10 @@
-def e(n):
+def somme(n):
     i = 0
-    e = 0
+    somme = 0
     while i != n:
-        e += 1/factorielle(i)
+        somme += 1/factorielle(i)
         i += 1
-    print(e)
+    print(somme)
 
 def factorielle(i):
     if i == 0:
